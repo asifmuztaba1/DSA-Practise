@@ -6,10 +6,10 @@ public class DSAArrays {
         this.element = element;
     }
 
-    public int[] rotateArray(int postion){
+    public int[] rotateArray(int position){
         int length = this.element.length;
         int counter=1;
-        while (counter<=postion){
+        while (counter<=position){
             int last=this.element[0];
             for (int i=0;i<length-1;i++){
                 this.element[i]=this.element[i+1];
