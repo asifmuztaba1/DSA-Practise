@@ -5,7 +5,9 @@ public class DSAArrays {
     public DSAArrays(int[] element) {
         this.element = element;
     }
-
+    public int[] getElement() {
+        return element;
+    }
     public int[] rotateArray(int position){
         int length = this.element.length;
         int counter=1;
